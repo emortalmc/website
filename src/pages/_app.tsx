@@ -1,14 +1,17 @@
 import { type Session } from "next-auth";
-import { SessionProvider } from "next-auth/react";
 import { type AppType } from "next/app";
 import { api } from "~/utils/api";
 import "~/styles/globals.css";
+import { ThemeProvider } from "next-themes";
 
-const MyApp: AppType<{ session: Session | null }> = ({ Component, pageProps: { session, ...pageProps } }) => {
+const MyApp: AppType<{ session: Session | null }> = ({ Component, pageProps }) => {
     return (
-        <SessionProvider session={session}>
+        <ThemeProvider attribute="class">
+            {/* Leaving it here because im too lazy to readd it in the future, not needed right now */}
+            {/* <SessionProvider session={session}> */}
             <Component {...pageProps} />
-        </SessionProvider>
+            {/* </SessionProvider> */}
+        </ThemeProvider>
     );
 };
 
