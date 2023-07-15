@@ -9,8 +9,14 @@ export default function Home() {
                 <title>EmortalMC</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <Naviation />
-            <EmortalCube />
+            <div className={"h-screen flex-col"}>
+                <Naviation />
+                <div className={"h-full"}>
+                    <div>
+                        <EmortalCube />
+                    </div>
+                </div>
+            </div>
         </>
     );
 }
