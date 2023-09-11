@@ -2,6 +2,7 @@ import { Book } from "lucide-react";
 
 // type doesn't exist anymore?
 // import { type Icon as LucideIcon } from "lucide-react";
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 type LucideIcon = any;
 
 export const Icons = {

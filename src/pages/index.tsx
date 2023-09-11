@@ -2,7 +2,6 @@ import Head from "next/head";
 import Image from "next/image";
 import { EmortalCube } from "~/components/cube";
 import { Naviation } from "~/components/navigation";
-import { Card } from "~/components/ui/card";
 
 export default function Home() {
     return (
