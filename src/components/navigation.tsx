@@ -49,10 +49,10 @@ export const Naviation = () => {
                     <Icons.book className="h-4 w-4" />
                     Docs
                 </NavLink>
-                <NavLink href={siteConfig.links.github}>
+                <NavLink href={siteConfig.links.github} newTab>
                     <Icons.github className="h-4 w-4" />
                 </NavLink>
-                <NavLink href={siteConfig.links.discord}>
+                <NavLink href={siteConfig.links.discord} newTab>
                     <Icons.discord className="h-4 w-4" />
                 </NavLink>
                 <ThemeToggle />

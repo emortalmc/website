@@ -4,6 +4,9 @@
 
 @layer base {
     :root {
+        --emortal-purple: hsl(300, 100%, 67%);
+        --emortal-orange: hsl(28, 100%, 50%);
+
         --background: 0 0% 100%;
         --foreground: 0 0% 3.9%;
 
