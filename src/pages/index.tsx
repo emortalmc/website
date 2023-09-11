@@ -27,7 +27,7 @@ export default function Home() {
                                     >
                                         EmortalMC
                                     </h1>
-                                    <p className={"text-2xl"}>A Minecraft Server</p>
+                                    <p className={"text-2xl"}>A Minecraft minigames server powered by Minestom</p>
                                 </div>
                                 <div>
                                     <h2 className={"text-4xl"}>
