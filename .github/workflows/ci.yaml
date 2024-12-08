@@ -21,7 +21,7 @@ jobs:
           cache: "yarn"
 
       - name: Setup yarn
-        uses: borales/actions-yarn@v4
+        uses: borales/actions-yarn@v5
         with:
           cmd: "install"
 
@@ -44,7 +44,7 @@ jobs:
           cache: "yarn"
 
       - name: Setup yarn
-        uses: borales/actions-yarn@v4
+        uses: borales/actions-yarn@v5
         with:
           cmd: "install"
 
